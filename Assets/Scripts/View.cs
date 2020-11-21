@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class View : MonoBehaviour
 {
     public Text
-        tournamentnameText,
+        tournamentNameText,
         levelText,
         timerText,
         blindsText,
@@ -25,7 +25,7 @@ public class View : MonoBehaviour
 
     public void DisplayTournamentText(string tournamentName)
     {
-        tournamentnameText.text = tournamentName;
+        tournamentNameText.text = tournamentName;
     }
 
     public void OnLevelChanged(int level,int smallBlind,int bigBlind,int bbAnte,int nextSmallBlind,int nextBigBilnd,int nextBBAnte)
@@ -51,6 +51,11 @@ public class View : MonoBehaviour
     public void DisplayPlayerNumberText(int remainPlayerNum,int startPlayerNum)
     {
         playersText.text = remainPlayerNum.ToString() + "/" + startPlayerNum.ToString(); 
+    }
+
+    public void OnBreakCalled()
+    {
+        levelText.text = "休憩中";
     }
 
     public void ChangePauseButtonSprite(State state)
