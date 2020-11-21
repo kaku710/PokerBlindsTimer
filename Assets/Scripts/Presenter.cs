@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UniRx;
 using UnityEngine;
 
@@ -13,6 +14,7 @@ public class Presenter : MonoBehaviour
 
     ReactiveProperty<int> level = new ReactiveProperty<int>();
     ReactiveProperty<int> timer = new ReactiveProperty<int>();
+    [SerializeField] int breakLevel = 0; // 脳死で追加してしまった
 
     [SerializeField] [Header("トーナメント名")] string tournamentName;
 
@@ -44,8 +46,10 @@ public class Presenter : MonoBehaviour
             .Subscribe(_ => PlusLevel()).AddTo(gameObject);
 
         Observable.Interval(TimeSpan.FromSeconds(1)).Subscribe(
-            _ => timer.Value--
-        ).AddTo(gameObject);
+            _ =>
+            {
+                timer.Value--;
+            }).AddTo(gameObject);
 
         remainedPlayerNumber.ObserveEveryValueChanged(_ => _.Value)
             .Subscribe(_ =>
@@ -149,6 +153,8 @@ public class Presenter : MonoBehaviour
         var breakTime = breakDataList.Find(d => d.beforeLevel == level.Value).breakTime;
         SetTimer(breakTime * 60);
         view.OnBreakCalled();
+        breakLevel++;
+        view.DisplayNextBreak(breakDataList[breakLevel].beforeLevel);
     }
 
     bool IsNextBreak(int level)

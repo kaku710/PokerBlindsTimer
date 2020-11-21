@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67033547-7892-44af-8f29-af8951094469" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PokerBlindsTimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokerBlindsTimer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Presenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Presenter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605945526187</updated>
-      <workItem from="1605945542277" duration="2422000" />
+      <workItem from="1605945542277" duration="4709000" />
     </task>
     <servers />
   </component>
@@ -105,5 +107,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605950345826">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="516" y="229" width="672" height="678" key="search.everywhere.popup/0.23.1680.958@0.23.1680.958" timestamp="1605950345826" />
   </component>
 </project>

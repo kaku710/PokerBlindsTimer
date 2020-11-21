@@ -43,6 +43,11 @@ public class View : MonoBehaviour
         timerText.text = minute.ToString() + ":" + seconds.ToString("00");
     }
 
+    public void DisplayNextBreak(int level)
+    {
+        nextBreakText.text = "レベル" + level + "終了後";
+    }
+
     public void DisplayAvgStack(int stack)
     {
         avgText.text = stack.ToString();

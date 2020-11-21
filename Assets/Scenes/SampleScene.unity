@@ -1628,7 +1628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca82beb61c094ec9bf2e5da124a7d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tournamentNameText: {fileID: 0}
+  tournamentNameText: {fileID: 892943651}
   levelText: {fileID: 41476426}
   timerText: {fileID: 2008511964}
   blindsText: {fileID: 268316629}
@@ -2464,6 +2464,7 @@ MonoBehaviour:
   - beforeLevel: 19
     breakTime: 10
   view: {fileID: 840084058}
+  breakLevel: 0
   tournamentName: "\u3058\u3085\u3093\u3058\u3085\u3093\u676F"
   startStack: 20000
   startPlayerNumber: 9
@@ -3706,7 +3707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2004790681
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3758,7 +3759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 01:19:46
+  m_Text: "\u30EC\u30D9\u30EB3\u7D42\u4E86\u5F8C"
 --- !u!222 &2004790683
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4092,7 +4093,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2085535959
 RectTransform:
   m_ObjectHideFlags: 0
