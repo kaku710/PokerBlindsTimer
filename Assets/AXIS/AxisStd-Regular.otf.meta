@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 2f5e1b69f05d94443aede24fb4ca18ea
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: AXIS Std
+  fontNames:
+  - AXIS Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d5308e13bfd254ec8ba690c2bae59eeb, type: 3}
+  - {fileID: 12800000, guid: 7644f0d6df5244f228dd1ec328ff1fcd, type: 3}
+  - {fileID: 12800000, guid: f377e5d7254ca48dc8990ac7114a04af, type: 3}
+  - {fileID: 12800000, guid: be07255c016114cfc89d57ac384b11a3, type: 3}
+  - {fileID: 12800000, guid: 4182769cd4b92455e82f26efaaece6f4, type: 3}
+  - {fileID: 12800000, guid: 1447e32e9da2c42c4a16aa73ff692cc9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
