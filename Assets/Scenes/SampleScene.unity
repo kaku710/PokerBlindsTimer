@@ -2467,7 +2467,7 @@ MonoBehaviour:
   breakLevel: 0
   tournamentName: "\u3058\u3085\u3093\u3058\u3085\u3093\u676F"
   startStack: 20000
-  startPlayerNumber: 9
+  startPlayerNumber: 12
 --- !u!82 &1160665352
 AudioSource:
   m_ObjectHideFlags: 0

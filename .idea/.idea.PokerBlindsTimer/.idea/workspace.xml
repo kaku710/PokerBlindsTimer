@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67033547-7892-44af-8f29-af8951094469" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PokerBlindsTimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokerBlindsTimer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Presenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Presenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605945526187</updated>
-      <workItem from="1605945542277" duration="4709000" />
+      <workItem from="1605945542277" duration="5319000" />
     </task>
     <servers />
   </component>

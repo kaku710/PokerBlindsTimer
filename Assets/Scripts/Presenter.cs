@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UniRx;
+using UniRx.Triggers;
 using UnityEngine;
 
 public class Presenter : MonoBehaviour
@@ -58,6 +59,11 @@ public class Presenter : MonoBehaviour
                 view.DisplayAvgStack((int) avgStack);
                 view.DisplayPlayerNumberText(remainedPlayerNumber.Value, startPlayerNumber);
             }).AddTo(gameObject);
+        
+        // UIじゃなくて申し訳ないですが雑に次のレベルに飛ぶ機能
+        this.UpdateAsObservable()
+            .Where(_ => Input.GetKeyDown(KeyCode.S))
+            .Subscribe(_ => PlusLevel());
 
         SetEvents();
     }
